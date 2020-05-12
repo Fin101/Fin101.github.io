@@ -3,3 +3,19 @@
   text-align: center;
   padding: 0px 30px 20px;
 }
+
+.skill-icons {
+  margin: 50px;
+}
+
+.skil-icons-row {
+  display: inline-flex;
+}
+
+.icon {
+  margin: 10px;
+}
+
+.icon:hover {
+  color: rgb(255, 0, 234);
+}

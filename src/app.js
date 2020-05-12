@@ -9,6 +9,10 @@ import Skills from './components/Skills'
 import Banner from './components/Banner'
 import Projects from './components/Projects'
 import Footer from './components/Footer'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+
+library.add(fab)
 
 class App extends Component {
   render() {
