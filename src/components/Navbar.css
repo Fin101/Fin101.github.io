@@ -1,0 +1,35 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #218b00;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.logo {
+  color: #fff;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+  padding: 5px;
+  /* background-color: rgba(2, 2, 2, 0.562);
+  border-radius: 5px; */
+}
+
+/* nav ul li.hover {
+  background-color: rgba(2, 2, 2, 0.562);
+  border-radius: 5px;
+} */
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* nav ul li a:hover {
+  text-transform: capitalize;
+} */
