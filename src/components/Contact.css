@@ -1,0 +1,13 @@
+.contactSection {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 45px;
+}
+
+.contact-info-container {
+  text-align: center;
+}
+
+.contact-info {
+  display: inline-flex;
+} 
