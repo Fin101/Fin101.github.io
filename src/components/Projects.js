@@ -4,6 +4,7 @@ import Slider from 'infinite-react-carousel'
 import nutrifix from '../images/nutrifix-project.png'
 import devtru from '../images/devtru-project.png'
 import game from '../images/game.png'
+import travelLog from '../images/travellog.png'
 import cocktail from '../images/cocktailapp.png'
 
 class Projects extends Component {
@@ -40,7 +41,10 @@ class Projects extends Component {
             <img src={cocktail} alt="" />
           </div>
           <div>
-            <h3>5</h3>
+            <h3>Travel Log App</h3>
+            <h4>Solo project</h4>
+            <p>The concept behind travel log app allows users to register, creating their own profile, where they can check off and track all of their previous travel destinations. This is a full-stack application built using the Django REST framework with a PostgreSQL database and a React front-end.</p>
+            <img src={travelLog} alt="" />
           </div>
         </Slider>
       </section>
