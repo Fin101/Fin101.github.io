@@ -16,19 +16,19 @@ class Interests extends Component {
         <p>Such as Mr Frodo perhaps, I’dcertainly say I have an impulsivesense of wanderlust. Alwayslooking to squeeze in little adventures as far as my time andbudget will allow me</p>
         <div className="skill-icons-row">
           <div className="icon-container">
-            <FontAwesomeIcon className="icon" icon={faBook} size="4x" />
+            <FontAwesomeIcon className="icon" icon={faBook} size="3x" />
             <h4>Reading</h4>
           </div>
           <div className="icon-container">
-            <FontAwesomeIcon className="icon" icon={faGlobeEurope} size="4x" />
+            <FontAwesomeIcon className="icon" icon={faGlobeEurope} size="3x" />
             <h4>Travel</h4>
           </div>
           <div className="icon-container">
-            <FontAwesomeIcon className="icon" icon={faFilm} size="4x" />
+            <FontAwesomeIcon className="icon" icon={faFilm} size="3x" />
             <h4>Film</h4>
           </div>
           <div className="icon-container">
-            <FontAwesomeIcon className="icon" icon={faFutbol} size="4x" />
+            <FontAwesomeIcon className="icon" icon={faFutbol} size="3x" />
             <h4>Sports</h4>
           </div>
           {/* <div className="icon-container">
@@ -36,7 +36,7 @@ class Interests extends Component {
             <h4>Golf</h4>
           </div> */}
           <div className="icon-container">
-            <FontAwesomeIcon className="icon" icon={faGamepad} size="4x" />
+            <FontAwesomeIcon className="icon" icon={faGamepad} size="3x" />
             <h4>Gaming</h4>
           </div>
         </div>
