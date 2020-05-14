@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './Interests.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBook, faGlobeEurope, faFutbol, faGolfBall, faFilm, faGamepad } from '@fortawesome/free-solid-svg-icons'
+import { faBook, faGlobeEurope, faFutbol, faFilm, faGamepad } from '@fortawesome/free-solid-svg-icons'
 
 
 

@@ -1,6 +1,7 @@
-import React, { Component } from 'react';
-import './Banner.css';
+import React, { Component } from 'react'
+import './Banner.css'
 import Background from '../images/fez.jpeg'
+// import useMediaQuery from '@material-ui/core/useMediaQuery'
 
 const myStyles = {
   'backgroundImage': `url(${Background})`,
@@ -8,7 +9,6 @@ const myStyles = {
   'backgroundSize': 'cover',
   'backgroundPosition': 'center',
   'backgroundRepeat': 'no-repeat',
-
   'backgroundAttachment': 'fixed'
 }
 
@@ -16,7 +16,7 @@ class Banner extends Component {
 
   render() {
     return (
-      <section style={myStyles}>
+      <section className="banner" style={myStyles}>
 
       </section>
     )

@@ -22,8 +22,8 @@ class Hero extends Component {
     return (
       <header style={myStyles}>
         <div>
-          <h1>{this.props.Title}</h1>
-          <p>Junior Game & Web Developer</p>
+          <h1 className="hero-heaeder">{this.props.Title}</h1>
+          <p className="hero-subheaeder">Junior Game & Web Developer</p>
         </div>
       </header>
     )
