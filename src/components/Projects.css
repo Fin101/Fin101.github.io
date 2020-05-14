@@ -3,6 +3,7 @@
   text-align: center;
   padding: 35px 30px;
   /* background-color: #1d809f; */
+  font-size: larger;
 }
 
 img {
@@ -11,9 +12,12 @@ img {
 
 .projectCard {
   width: 100px;
+  max-width: 1000px;
+
 }
 
 .projectCard p {
   padding-left: 45px;
   padding-right: 45px;
+  /* font-size: large; */
 }

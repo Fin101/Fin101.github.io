@@ -9,7 +9,7 @@ class Skills extends Component {
       <section className="skillsSection">
         <h2>Skills</h2>
         <div className="skill-icons">
-          <div className="skil-icons-row">
+          <div className="skill-icons-row">
             <div className="icon-container">
               <FontAwesomeIcon className="icon" icon={['fab', 'react']} size="6x" />
               <h4>React</h4>
@@ -31,7 +31,7 @@ class Skills extends Component {
               <h4>Unity</h4>
             </div>
           </div>
-          <div className="skil-icons-row">
+          <div className="skill-icons-row">
             <div className="icon-container">
               <FontAwesomeIcon className="icon" icon={['fab', 'apple']} size="6x" />
               <h4>Apple IOS</h4>
@@ -52,6 +52,37 @@ class Skills extends Component {
               <FontAwesomeIcon className="icon" icon={['fab', 'python']} size="6x" />
               <h4>Python</h4>
             </div>
+
+            {/* <div className="icon-container">
+              <h4>C#</h4>
+            </div>
+            <div className="icon-container">
+              <h4>Bulma</h4>
+            </div>
+            <div className="icon-container">
+              <h4>jQuery</h4>
+            </div>
+            <div className="icon-container">
+              <h4>Visual Studio Code</h4>
+            </div>
+            <div className="icon-container">
+              <h4>Insomnia</h4>
+            </div>
+            <div className="icon is-large fas fa-3x">
+              <h4>Mongo</h4>
+            </div>
+            <div className="icon-container">
+              <h4>Django</h4>
+            </div>
+            <div className="icon-container">
+              <h4>PostgreSQL</h4>
+            </div>
+            <div className="icon-container">
+              <h4>TablePlus</h4>
+            </div> */}
+          </div>
+          <div className="skill-icon-row">
+            <h4 className="skill-list">C# | Bluma | jQuery | Visual Studio Code | Insomnia | Mongo | Django | PostgreSQL | TablePlus</h4>
           </div>
         </div>
       </section>

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
 import './app.css'
-// import App from './App';
+// import 'bulma/css/bulma.css'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'

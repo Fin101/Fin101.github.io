@@ -34,16 +34,17 @@ class Projects extends Component {
             <p>Used HTML, CSS, and JavaScript to create a grid-based game that emulated the classic videogame ‘frogger’ with a ‘Rick & Morty’ twist. Your ‘Morty’ would quickly and strategicallymaneuver around the grid collecting ‘dragon-balls’, accumulating points, whilst avoidingcollisions with oncoming spaceships.</p>
             <img src={game} alt="" />
           </div>
-          <div>
+          <div className="projectCard">
             <h3>Cocktail App</h3>
             <h4>Solo project</h4>
             <p>Using Insomnia, I extracted data from the cocktail db API and created a simple app where users could browse through hundreds of cocktails via a search bar. The app returned instructions on how to make the cocktail, the ingredients required, and a tastful image. Bulma was used to assist with the styling.</p>
             <img src={cocktail} alt="" />
           </div>
-          <div>
+          <div className="projectCard">
             <h3>Travel Log App</h3>
             <h4>Solo project</h4>
             <p>The concept behind travel log app allows users to register, creating their own profile, where they can check off and track all of their previous travel destinations. This is a full-stack application built using the Django REST framework with a PostgreSQL database and a React front-end.</p>
+            <p>I'm continueing to work on the travel log app to resolve the remaining issues I've had with the user's profile and look forward to showcasing the finished product!</p>
             <img src={travelLog} alt="" />
           </div>
         </Slider>
