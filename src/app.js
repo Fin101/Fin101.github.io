@@ -8,6 +8,7 @@ import About from './components/About'
 import Skills from './components/Skills'
 import Banner from './components/Banner'
 import Projects from './components/Projects'
+import Interests from './components/Interests'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -26,6 +27,7 @@ class App extends Component {
         <Skills />
         <Banner />
         <Projects />
+        <Interests />
         <Contact />
         <Footer />
       </div>

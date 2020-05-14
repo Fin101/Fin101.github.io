@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import './About.css';
+import React, { Component } from 'react'
+import './About.css'
 
 class About extends Component {
 
@@ -18,4 +18,4 @@ class About extends Component {
   
 }
 
-export default About;
+export default About
