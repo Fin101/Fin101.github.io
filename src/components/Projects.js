@@ -27,6 +27,9 @@ class Projects extends Component {
             <a href="https://nutrifixrecipes.herokuapp.com">
               <FontAwesomeIcon className="icon" icon={faLink} size="2x" color="black" />
             </a>
+            <a href="https://github.com/Fin101/project3">
+              <FontAwesomeIcon className="icon" icon={['fab', 'github']} size="2x" color="black" />
+            </a>
           </div>
           <div className="projectCard">
             <h3>DevTru</h3>
@@ -36,12 +39,21 @@ class Projects extends Component {
             <a href="https://fin101.github.io/Project2/">
               <FontAwesomeIcon className="icon" icon={faLink} size="2x" color="black" />
             </a>
+            <a href="https://github.com/Fin101/project2">
+              <FontAwesomeIcon className="icon" icon={['fab', 'github']} size="2x" color="black" />
+            </a>
           </div>
           <div className="projectCard">
             <h3>Rick & Morty Game</h3>
             <h4>Solo project</h4>
             <img src={game} alt="" />
             <p>Used HTML, CSS, and JavaScript to create a grid-based game that emulated the classic videogame ‘frogger’ with a ‘Rick & Morty’ twist. Your ‘Morty’ would quickly and strategicallymaneuver around the grid collecting ‘dragon-balls’, accumulating points, whilst avoidingcollisions with oncoming spaceships.</p>
+            <a href="https://github.com/Fin101/Frogger-Game-Project">
+              <FontAwesomeIcon className="icon" icon={faLink} size="2x" color="black" />
+            </a>
+            <a href="https://github.com/Fin101/Frogger-Game-Project">
+              <FontAwesomeIcon className="icon" icon={['fab', 'github']} size="2x" color="black" />
+            </a>
           </div>
           <div className="projectCard">
             <h3>Cocktail App</h3>
@@ -57,6 +69,9 @@ class Projects extends Component {
             <p>I'm continueing to work on the travel log app to resolve the remaining issues I've had with the user's profile and look forward to showcasing the finished product!</p>
             <a href="https://fins-backpacker-app.herokuapp.com/#/searchlocation">
               <FontAwesomeIcon className="icon" icon={faLink} size="2x" color="black" />
+            </a>
+            <a href="https://github.com/Fin101/project4">
+              <FontAwesomeIcon className="icon" icon={['fab', 'github']} size="2x" color="black" />
             </a>
           </div>
         </Slider>
