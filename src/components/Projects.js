@@ -74,6 +74,16 @@ class Projects extends Component {
               <FontAwesomeIcon className="icon" icon={['fab', 'github']} size="2x" color="black" />
             </a>
           </div>
+          <div className="projectCard">
+            <h3>Unity Projects - COMING SOON!</h3>
+            <h4>Solo projects</h4>
+            {/* <img src={game} alt="" /> */}
+            <p>I'm currently taking a "C# Unity Developer 2D" course, working on working on multiple games projects to be deployed soon, such as:</p>
+            <p><b>Laser Defender:</b> A Top-Down Space Shooter with enemies to shoot and dodge;</p>
+            <p><b>Glitch Garden:</b> A Tower Defense game with different tower types and enemy types, and a basic resources system;</p>
+            <p><b>TileVania:</b> A fast-paced classic Side-Scrolling Platformer using Unity's Tilemap tool;</p>
+            <p><b>Block Breaker:</b> A basic "Breakout" style game using Unity's built in physics engine.</p>
+          </div>
         </Slider>
       </section>
     )
