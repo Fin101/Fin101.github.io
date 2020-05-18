@@ -16,6 +16,14 @@
   margin: 10px;
 }
 
+.icon2 {
+  margin: 7px;
+}
+
 .icon:hover {
+  color: rgb(255, 0, 234);
+}
+
+.icon2:hover {
   color: rgb(255, 0, 234);
 }
