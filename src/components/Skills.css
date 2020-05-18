@@ -4,6 +4,10 @@
   padding: 0px 30px 20px;
 }
 
+.mobile-icon-container {
+  display: none;
+}
+
 .skill-icons {
   margin: 50px;
 }
@@ -26,4 +30,24 @@
 
 .icon2:hover {
   color: rgb(255, 0, 234);
+}
+
+@media only screen and (max-width: 600px) {
+
+  .icon-container {
+    display: none;
+  }
+
+  .mobile-icon-container {
+    display: block;
+  }
+
+  .skill-icons {
+    margin: 0px;
+  }
+
+  .mobile-icon-container h4 {
+    font-size: 10px;  
+  }
+
 }
