@@ -15,10 +15,10 @@ class Navbar extends Component {
 
     return (
       <nav style={myStyles}>
-        <h2 className="logo">{this.props.LogoTitle}</h2>
+        {/* <h2 className="logo">{this.props.LogoTitle}</h2>
         <ul className="">
           {navLinks}
-        </ul>
+        </ul> */}
       </nav>
     )
   }
