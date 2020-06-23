@@ -137,7 +137,7 @@ class Skills extends Component {
             </div>
           </div>
           <div className="skill-icon-row">
-            <h4 className="skill-list">Bluma | jQuery | Visual Studio Code | Insomnia | Mongo | TablePlus</h4>
+            <h4 className="skill-list">Bulma | jQuery | Visual Studio Code | Insomnia | Mongo | TablePlus</h4>
           </div>
         </div>
       </section>

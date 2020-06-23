@@ -11,9 +11,9 @@ class Interests extends Component {
     return (
       <section className="interestsSection">
         <h2>Hobbies & Interests</h2>
-        <p>I’m a keen sportsman - both as aplayer and spectator. My mainsporting interests include football,golf, cricket & tennis. I play for alocal Sunday football team on the weekends.</p>
-        <p>When I’m not playing or watchingsports, you’ll likely find meimmersed in a good book - likelysomething anthropological,drawing comparisons from ourprehistoric ancestors, fantasizingabout living in a simpler time - orhalfway through a 12hr Lord of theRings marathon.</p>
-        <p>Such as Mr Frodo perhaps, I’dcertainly say I have an impulsivesense of wanderlust. Alwayslooking to squeeze in little adventures as far as my time andbudget will allow me</p>
+        <p>I’m a keen sportsman - both as aplayer and spectator. My main sporting interests include football, golf, cricket & tennis. I play for a local Sunday football team on the weekends.</p>
+        <p>When I’m not playing or watching sports, you’ll likely find me immersed in a good book - often something anthropological, drawing comparisons from our prehistoric ancestors, fantasizing about living in a simpler time - or halfway through a 12hr Lord of theRings marathon.</p>
+        <p>Such as Mr Frodo perhaps, I’d certainly say I have an impulsive sense of wanderlust. Always looking to squeeze in little adventures as far as my time and budget will allow me.</p>
         <div className="skill-icons-row">
           <div className="icon-container">
             <FontAwesomeIcon className="icon" icon={faBook} size="3x" />

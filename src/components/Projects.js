@@ -21,9 +21,9 @@ class Projects extends Component {
             <h3>NutriFix</h3>
             <h4>Group project</h4>
             <img src={nutrifix} alt="" />
-            <p>For the Nutrifix project, I worked together in a group of four. Due to the COVID-19 lockdown,we were faced with the additional challenge of working from a remote environment, furthertesting our communication collaborative skills as a team. We created a recipe app, whereusers could log in/register, and browse through their favourite recipes using the ‘filter tags’(e.g. vegetarian, meat, dairy free, etc.). As a stretch goal, users were also able to add their ownrecipes to their profile.</p>
-            <p>We used Express and MongoDB frameworks for developing a back end, and React.js andBulma for the front end. We made sure to spend time designing and mapping out what we’drequire for our schemas and core functionalities before diving into writing any code. We tookcare in delegating each task as to not be writing conflicting code. We pushed regularly toGitHub and kept in constant communication, updating the team on each input.</p>
-            <p>I was  predominantly  responsible  for  the  site  navigation  and  developing  the  single-recipepages, as well as styling and various collective backend challenges we debugged as a group.</p>
+            <p>For the Nutrifix project, I worked together in a group of four. Due to the COVID-19 lockdown, we were faced with the additional challenge of working from a remote environment, further testing our communication collaborative skills as a team. We created a recipe app, where users could log in/register, and browse through their favourite recipes using the ‘filter tags’(e.g. vegetarian, meat, dairy free, etc.). As a stretch goal, users were also able to add their own recipes to their profile.</p>
+            <p>We used Express and MongoDB frameworks for developing a back end, and React.js and Bulma for the front end. We made sure to spend time designing and mapping out what we’d require for our schemas and core functionalities before diving into writing any code. We tookcare in delegating each task as to not be writing conflicting code. We pushed regularly to GitHub and kept in constant communication, updating the team on each input.</p>
+            <p>I was  predominantly  responsible  for  the  site  navigation  and  developing  the  single-recipe pages, as well as styling and various collective backend challenges we debugged as a group.</p>
             <a href="https://nutrifixrecipes.herokuapp.com">
               <FontAwesomeIcon className="icon" icon={faLink} size="2x" color="black" />
             </a>
@@ -35,7 +35,7 @@ class Projects extends Component {
             <h3>DevTru</h3>
             <h4>Paired project</h4>
             <img src={devtru} alt="" />
-            <p>I was tasked with building a React application that consumed a public API. The Deezer APIprovided me with all the data I needed to build the app, using axios requests to multipleendpoints. I created a music-based app where users could search/filter through thousands ofartists, albums or song titles and stream short previews - a not dissimilar concept to Spotify orDeezer. We used the CSS framework, Bulma, to aid in building this web app.</p>
+            <p>I was tasked with building a React application that consumed a public API. The Deezer API provided me with all the data I needed to build the app, using axios requests to multiple endpoints. I created a music-based app where users could search/filter through thousands of artists, albums or song titles and stream short previews - a not dissimilar concept to Spotify orDeezer. We used the CSS framework, Bulma, to aid in building this web app.</p>
             <a href="https://fin101.github.io/Project2/">
               <FontAwesomeIcon className="icon" icon={faLink} size="2x" color="black" />
             </a>
@@ -47,7 +47,7 @@ class Projects extends Component {
             <h3>Rick & Morty Game</h3>
             <h4>Solo project</h4>
             <img src={game} alt="" />
-            <p>Used HTML, CSS, and JavaScript to create a grid-based game that emulated the classic videogame ‘frogger’ with a ‘Rick & Morty’ twist. Your ‘Morty’ would quickly and strategicallymaneuver around the grid collecting ‘dragon-balls’, accumulating points, whilst avoidingcollisions with oncoming spaceships.</p>
+            <p>Used HTML, CSS, and JavaScript to create a grid-based game that emulated the classic videogame ‘frogger’ with a ‘Rick & Morty’ twist. Your ‘Morty’ would quickly and strategically maneuver around the grid collecting ‘dragon-balls’, accumulating points, whilst avoiding collisions with oncoming spaceships.</p>
             <a href="https://github.com/Fin101/Frogger-Game-Project">
               <FontAwesomeIcon className="icon" icon={faLink} size="2x" color="black" />
             </a>
